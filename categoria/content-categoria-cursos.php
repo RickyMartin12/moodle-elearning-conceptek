@@ -543,6 +543,7 @@ var names = [];
                         processData: false,
                         cache: false
                     }).done(function(msg) {
+						console.log(msg);
                         alert('File was added successfully');
                     });
 
