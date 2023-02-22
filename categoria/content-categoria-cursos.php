@@ -536,7 +536,7 @@ var names = [];
                     }
 
                     $.ajax({
-                        url: 'https://interhub.org/upload_file_category.php', 
+                        url: 'https://upload-moodle-test-cat-production.up.railway.app/upload_file_category.php', 
                         type: 'POST',
                         contentType: false,
                         data: data,
@@ -557,9 +557,9 @@ var names = [];
     		var conf_blog = $("#cont_fil_"+i+" > #fil_blog > span").html();
     		removeA(names, conf_blog);
 
-    		var path = "https://interhub.org/cat/"+conf_blog;
+    		var path = "https://upload-moodle-test-cat-production.up.railway.app/cat/"+conf_blog;
     		$.ajax({
-		      url: 'https://interhub.org/removefiles_category.php',
+		      url: 'https://upload-moodle-test-cat-production.up.railway.app/removefiles_category.php',
 		      type: 'post',
 		      data: {path: path},
 		      success: function(response){
@@ -1434,7 +1434,7 @@ function function_content(id)
 								case 'jpg':
 								case 'png':
 								case 'gif':
-									v_img += '<div class="w3-content w3-section row" style="max-width:100%"><div class="mySlides row"><div class="col-xs-12"><img src="https://interhub.org/cat/'+files_upl[i]+'" style="width:100%"><br></div></div>';	
+									v_img += '<div class="w3-content w3-section row" style="max-width:100%"><div class="mySlides row"><div class="col-xs-12"><img src="https://upload-moodle-test-cat-production.up.railway.app/cat/'+files_upl[i]+'" style="width:100%"><br></div></div>';	
 								break;                         
 								case 'mp4':
 								case 'mov':
@@ -1444,7 +1444,7 @@ function function_content(id)
 								case 'webm':
 								case 'wmv':
 								case 'm4v':
-									v_img += '<video class="embed-responsive-item img-responsive" source src="https://interhub.org/cat/'+files_upl[i]+'" type="video/mp4" controls></video>';
+									v_img += '<video class="embed-responsive-item img-responsive" source src="https://upload-moodle-test-cat-production.up.railway.app/cat/'+files_upl[i]+'" type="video/mp4" controls></video>';
 								break;
 								
 								default:
