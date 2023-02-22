@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$connect = new PDO('mysql:host=containers-us-west-77.railway.app;railway;port=6143', 'root', 'Rnjhhqi1DaRKTHsDTePc');
+$connect = new PDO('mysql:host=containers-us-west-77.railway.app;dbname=railway;port=6143', 'root', 'Rnjhhqi1DaRKTHsDTePc');
 
 
 
