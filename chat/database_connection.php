@@ -74,7 +74,7 @@ function fetch_user_chat_history($from_user_id, $to_user_id, $connect)
 
 function get_user_name($user_id, $connect)
 {
-	$connect = new PDO('mysql:host=us-cdbr-east-05.cleardb.net;dbname=heroku_66fdfb6d3e4b701', 'bfc3454c13359a', '8dffbfd8');
+	$connect = new PDO('mysql:host=containers-us-west-77.railway.app;dbname=railway;port=6143', 'root', 'Rnjhhqi1DaRKTHsDTePc');
 	$query = "SELECT nome FROM admins WHERE id = '$user_id'";
 	$statement = $connect->prepare($query);
 	$statement->execute();

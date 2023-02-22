@@ -54,6 +54,10 @@ RUN chmod -R 777 /var/www/html/vendor
 
 RUN chmod -R 777 /var/www/html/video
 
+RUN chmod -R 777 /var/www/html/chat
+
+RUN chmod -R 777 /var/www/html/chat/upload
+
 COPY ./ports.conf /etc/apache2/ports.conf
 COPY ./apache.conf /etc/apache2/site-enabled/000-default.conf
 
