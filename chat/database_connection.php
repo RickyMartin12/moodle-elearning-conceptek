@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$connect = new PDO('mysql:host=us-cdbr-east-05.cleardb.net;dbname=heroku_66fdfb6d3e4b701', 'bfc3454c13359a', '8dffbfd8');
+$connect = new PDO('mysql:host=containers-us-west-77.railway.app;railway;port=6143', 'root', 'Rnjhhqi1DaRKTHsDTePc');
 
 
 
