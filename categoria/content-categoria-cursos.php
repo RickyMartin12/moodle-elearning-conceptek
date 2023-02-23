@@ -536,7 +536,7 @@ var names = [];
                     }
 
                     $.ajax({
-                        url: 'https://moodle-elearning-conc.onrender.com/upload_file_category.php', 
+                        url: 'https://upload-moodle-cats.onrender.com/upload_file_category.php', 
                         type: 'POST',
                         contentType: false,
                         data: data,
@@ -560,7 +560,7 @@ var names = [];
 
     		var path = "https://moodle-elearning-conc.onrender.com/cat/"+conf_blog;
     		$.ajax({
-		      url: 'https://moodle-elearning-conc.onrender.com/removefiles_category.php',
+		      url: 'https://upload-moodle-cats.onrender.com/removefiles_category.php',
 		      type: 'post',
 		      data: {path: path},
 		      success: function(response){
