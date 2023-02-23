@@ -10,19 +10,19 @@
 <meta name="keywords" content="Moodle Concpted Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="https://moodle-elearning-conceptek-production.up.railway.app/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="https://moodle-elearning-conc.onrender.com/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://moodle-elearning-conceptek-production.up.railway.app/css/bootstrap-switch.min.css">
+  <link rel="stylesheet" href="https://moodle-elearning-conc.onrender.com/css/bootstrap-switch.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link href="https://moodle-elearning-conceptek-production.up.railway.app/css/w3.css" rel='stylesheet' type='text/css' />
-<link href="https://moodle-elearning-conceptek-production.up.railway.app/css/style.css" rel='stylesheet' type='text/css' />
-<link href="https://moodle-elearning-conceptek-production.up.railway.app/css/font-awesome.css" rel="stylesheet"> 
-<script src="https://moodle-elearning-conceptek-production.up.railway.app/js/jquery.min.js"> </script>
-<script src="https://moodle-elearning-conceptek-production.up.railway.app/js/jquery.metisMenu.js"></script>
-<script src="https://moodle-elearning-conceptek-production.up.railway.app/js/jquery.slimscroll.min.js"></script>
-<link href="https://moodle-elearning-conceptek-production.up.railway.app/css/custom.css" rel="stylesheet">
-<script src="https://moodle-elearning-conceptek-production.up.railway.app/js/custom.js"></script>
-<script src="https://moodle-elearning-conceptek-production.up.railway.app/js/screenfull.js"></script>
+<link href="https://moodle-elearning-conc.onrender.com/css/w3.css" rel='stylesheet' type='text/css' />
+<link href="https://moodle-elearning-conc.onrender.com/css/style.css" rel='stylesheet' type='text/css' />
+<link href="https://moodle-elearning-conc.onrender.com/css/font-awesome.css" rel="stylesheet"> 
+<script src="https://moodle-elearning-conc.onrender.com/js/jquery.min.js"> </script>
+<script src="https://moodle-elearning-conc.onrender.com/js/jquery.metisMenu.js"></script>
+<script src="https://moodle-elearning-conc.onrender.com/js/jquery.slimscroll.min.js"></script>
+<link href="https://moodle-elearning-conc.onrender.com/css/custom.css" rel="stylesheet">
+<script src="https://moodle-elearning-conc.onrender.com/js/custom.js"></script>
+<script src="https://moodle-elearning-conc.onrender.com/js/screenfull.js"></script>
 		<script>
 		$(function () {
 			$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
@@ -46,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 border-color: #269abc!important;
             }
         </style>
-<script src="https://moodle-elearning-conceptek-production.up.railway.app/js/skycons.js"></script>
+<script src="https://moodle-elearning-conc.onrender.com/js/skycons.js"></script>
 <!--//skycons-icons-->
 </head>
 <body>
@@ -91,7 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               <h1> <a class="navbar-brand" href="index.php"><img src="https://moodle-elearning-conceptek-production.up.railway.app/images/cs.png" class="img-responsive" title="Welcome to Concept Software Systems eLearning"></a></h1>         
+               <h1> <a class="navbar-brand" href="index.php"><img src="https://moodle-elearning-conc.onrender.com/images/cs.png" class="img-responsive" title="Welcome to Concept Software Systems eLearning"></a></h1>         
 			   </div>
 			 <div class=" border-bottom">
         	<div class="full-left">
@@ -125,13 +125,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		    		
 					<li class="dropdown">
-		              <a href="#" class="dropdown-toggle dropdown-at" data-toggle="dropdown"><span class=" name-caret"><font id="logged_username_name"><?php echo $_COOKIE["username"] ?></font><i class="caret"></i></span><img src="https://moodle-elearning-conceptek-production.up.railway.app/images/users/<?php echo $_COOKIE['logotipo'] ?>" id="logged_username_img"></a>
+		              <a href="#" class="dropdown-toggle dropdown-at" data-toggle="dropdown"><span class=" name-caret"><font id="logged_username_name"><?php echo $_COOKIE["username"] ?></font><i class="caret"></i></span><img src="https://moodle-elearning-conc.onrender.com/images/users/<?php echo $_COOKIE['logotipo'] ?>" id="logged_username_img"></a>
 		              <ul class="dropdown-menu" id="menu_drop" role="menu">
-		                <li class="info_dashobaord"><a href="https://moodle-elearning-conceptek-production.up.railway.app/dashboard.php"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
-		                <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/profile.php"><i class="fa fa-user"></i>Edit Profile</a></li>
-		                <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/grades.php"><i class="fa fa-th"></i>Grades</a></li>
-		                <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/definitions.php"><i class="fa fa-cog"></i>Definitions</a></li>
-		                <li class="logout"><a href="https://moodle-elearning-conceptek-production.up.railway.app/logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+		                <li class="info_dashobaord"><a href="https://moodle-elearning-conc.onrender.com/dashboard.php"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+		                <li><a href="https://moodle-elearning-conc.onrender.com/profile.php"><i class="fa fa-user"></i>Edit Profile</a></li>
+		                <li><a href="https://moodle-elearning-conc.onrender.com/grades.php"><i class="fa fa-th"></i>Grades</a></li>
+		                <li><a href="https://moodle-elearning-conc.onrender.com/definitions.php"><i class="fa fa-cog"></i>Definitions</a></li>
+		                <li class="logout"><a href="https://moodle-elearning-conc.onrender.com/logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
 		              </ul>
 		            </li>
 		           
@@ -159,7 +159,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a href="#" class=" hvr-bounce-to-right"><i class="fa fa-home nav_icon"></i> <span class="nav-label">Home</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <?php if ($_COOKIE['home_dashboard'] == 'checked') { ?>
-                                <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/dashboard.php" class=" hvr-bounce-to-right"> <i class="fas fa-tachometer-alt nav_icon"></i>Dashboard</a></li>
+                                <li><a href="https://moodle-elearning-conc.onrender.com/dashboard.php" class=" hvr-bounce-to-right"> <i class="fas fa-tachometer-alt nav_icon"></i>Dashboard</a></li>
                             <?php } ?>
 
                             <?php if ($_COOKIE['home_site_pages'] == 'checked') { ?>
@@ -170,20 +170,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
                                 <?php if ($_COOKIE['home_site_pages_site_blogs'] == 'checked') { ?>
-	                            	<li><a href="https://moodle-elearning-conceptek-production.up.railway.app/site-blogs.php" class=" hvr-bounce-to-right"><i class="fab fa-blogger nav_icon"></i>Site Blogs</a></li>
+	                            	<li><a href="https://moodle-elearning-conc.onrender.com/site-blogs.php" class=" hvr-bounce-to-right"><i class="fab fa-blogger nav_icon"></i>Site Blogs</a></li>
                                 <?php } ?>
 
 
                                 <?php if ($_COOKIE['home_site_pages_site_badges'] == 'checked') { ?>
-	                            	<li><a href="https://moodle-elearning-conceptek-production.up.railway.app/site-badges.php" class=" hvr-bounce-to-right"><i class="fas fa-id-badge nav_icon"></i>Site Badges</a></li>
+	                            	<li><a href="https://moodle-elearning-conc.onrender.com/site-badges.php" class=" hvr-bounce-to-right"><i class="fas fa-id-badge nav_icon"></i>Site Badges</a></li>
                                 <?php } ?>
 
                                 <?php if ($_COOKIE['home_site_pages_calendar'] == 'checked') { ?>
-	                            	<li><a href="https://moodle-elearning-conceptek-production.up.railway.app/calendar.php" class=" hvr-bounce-to-right"><i class="fa fa-calendar nav_icon"></i>Calendar</a></li>
+	                            	<li><a href="https://moodle-elearning-conc.onrender.com/calendar.php" class=" hvr-bounce-to-right"><i class="fa fa-calendar nav_icon"></i>Calendar</a></li>
                                 <?php } ?>
 
                                 <?php if ($_COOKIE['home_site_pages_site_news'] == 'checked') { ?>
-	                            	<li><a href="https://moodle-elearning-conceptek-production.up.railway.app/site-news.php" class=" hvr-bounce-to-right"><i class="far fa-newspaper nav_icon"></i>Site News</a></li>
+	                            	<li><a href="https://moodle-elearning-conc.onrender.com/site-news.php" class=" hvr-bounce-to-right"><i class="far fa-newspaper nav_icon"></i>Site News</a></li>
                                 <?php } ?>
 
 
@@ -303,11 +303,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</ul>
                     </li>-->
 
-                    <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/categoria/ver-categories.php" class=" hvr-bounce-to-right"> <i class="fa fa-list-alt nav_icon"></i>Ver Categories</a></li>
+                    <li><a href="https://moodle-elearning-conc.onrender.com/categoria/ver-categories.php" class=" hvr-bounce-to-right"> <i class="fa fa-list-alt nav_icon"></i>Ver Categories</a></li>
 
-                    <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/grades/view-grades.php" class=" hvr-bounce-to-right"> <i class="fa fa-th nav_icon"></i>Ver Grades</a></li>
+                    <li><a href="https://moodle-elearning-conc.onrender.com/grades/view-grades.php" class=" hvr-bounce-to-right"> <i class="fa fa-th nav_icon"></i>Ver Grades</a></li>
 
-                     <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/chat/index.php" class=" hvr-bounce-to-right"> <i class="fas fa-sms nav_icon"></i>Chat</a></li>
+                     <li><a href="https://moodle-elearning-conc.onrender.com/chat/index.php" class=" hvr-bounce-to-right"> <i class="fas fa-sms nav_icon"></i>Chat</a></li>
 
 
                 </ul>
@@ -317,22 +317,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <li>
                     	<a href="#" class=" hvr-bounce-to-right"><i class="fas fa-user nav_icon"></i> <span class="nav-label">Administrator</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                        	<li><a href="https://moodle-elearning-conceptek-production.up.railway.app/admin/notifications.php" class=" hvr-bounce-to-right"><i class="fas fa-bell nav_icon"></i>Notifications</a></li>
-                        	<li><a href="https://moodle-elearning-conceptek-production.up.railway.app/admin/register-user.php" class=" hvr-bounce-to-right"><i class="fa fa-user nav_icon"></i>Registry User</a></li>
-                        	<li><a href="https://moodle-elearning-conceptek-production.up.railway.app/admin/adv-features.php" class=" hvr-bounce-to-right"><i class="fas fa-shield-alt nav_icon"></i>Advanced Features</a></li>
-                            <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/admin/lists_users.php" class=" hvr-bounce-to-right"><i class="fas fa-users nav_icon"></i>Users Lists</a></li>
+                        	<li><a href="https://moodle-elearning-conc.onrender.com/admin/notifications.php" class=" hvr-bounce-to-right"><i class="fas fa-bell nav_icon"></i>Notifications</a></li>
+                        	<li><a href="https://moodle-elearning-conc.onrender.com/admin/register-user.php" class=" hvr-bounce-to-right"><i class="fa fa-user nav_icon"></i>Registry User</a></li>
+                        	<li><a href="https://moodle-elearning-conc.onrender.com/admin/adv-features.php" class=" hvr-bounce-to-right"><i class="fas fa-shield-alt nav_icon"></i>Advanced Features</a></li>
+                            <li><a href="https://moodle-elearning-conc.onrender.com/admin/lists_users.php" class=" hvr-bounce-to-right"><i class="fas fa-users nav_icon"></i>Users Lists</a></li>
 
 
                             <li><a href="#" class="hvr-bounce-to-right"><i class="fas fa-graduation-cap nav_icon"></i><span class="nav-label">Courses / Categories</span><span class="fa arrow"></span></a>
 
                                     <ul class="nav nav-second-level">
                                   
-                                        <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/cursos/content-cursos.php" class=" hvr-bounce-to-right"><i class="fas fa-tag nav_icon"></i>List Courses </a></li>
+                                        <li><a href="https://moodle-elearning-conc.onrender.com/cursos/content-cursos.php" class=" hvr-bounce-to-right"><i class="fas fa-tag nav_icon"></i>List Courses </a></li>
 
-                                        <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/categoria/content-categoria-cursos.php" class=" hvr-bounce-to-right"><i class="fas fa-tags nav_icon"></i>List Categories </a></li>
+                                        <li><a href="https://moodle-elearning-conc.onrender.com/categoria/content-categoria-cursos.php" class=" hvr-bounce-to-right"><i class="fas fa-tags nav_icon"></i>List Categories </a></li>
 
 
-                                        <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/categoria/edit-content-categoria-cursos.php" class=" hvr-bounce-to-right"><i class="fas fa-edit nav_icon"></i>Edit Categories </a></li>
+                                        <li><a href="https://moodle-elearning-conc.onrender.com/categoria/edit-content-categoria-cursos.php" class=" hvr-bounce-to-right"><i class="fas fa-edit nav_icon"></i>Edit Categories </a></li>
                                         
                                     </ul>
                                 </li>
@@ -343,7 +343,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <ul class="nav nav-second-level">
 
 
-                                        <li><a href="https://moodle-elearning-conceptek-production.up.railway.app/grades/edit-grades.php" class=" hvr-bounce-to-right"><i class="fas fa-edit nav_icon"></i>Edit Grades </a></li>
+                                        <li><a href="https://moodle-elearning-conc.onrender.com/grades/edit-grades.php" class=" hvr-bounce-to-right"><i class="fas fa-edit nav_icon"></i>Edit Grades </a></li>
                                         
                                     </ul>
                                 </li>
@@ -429,7 +429,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <p style='text-align:center; margin:0;'><img src="https://moodle-elearning-conceptek-production.up.railway.app/images/cs.png" class="logo-nav" style="width:68px;"></p>
+                        <p style='text-align:center; margin:0;'><img src="https://moodle-elearning-conc.onrender.com/images/cs.png" class="logo-nav" style="width:68px;"></p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"> </i><font class="hidden-xs"> Cancel</font></button>
                         <button title="Guardar as alterações do blogue" type="button" class="btn btn-info" onclick="saveQuest();"> <span class="glyphicon glyphicon-send"></span><font class="hidden-xs"> Send Questionnaire</font></button>
                     </div>

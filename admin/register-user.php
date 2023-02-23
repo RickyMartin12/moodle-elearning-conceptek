@@ -15,12 +15,12 @@ session_start();
 	<meta name="keywords" content="Moodle Concpted Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="https://moodle-elearrning.herokuapp.com/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://moodle-elearrning.herokuapp.com/css/bootstrap.min.css">
+    <link rel="icon" href="https://moodle-elearning-conc.onrender.com/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://moodle-elearning-conc.onrender.com/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://moodle-elearrning.herokuapp.com/css/font-awesome.css">
-    <link rel="stylesheet" href="https://moodle-elearrning.herokuapp.com/css/login.css">
+    <link rel="stylesheet" href="https://moodle-elearning-conc.onrender.com/css/font-awesome.css">
+    <link rel="stylesheet" href="https://moodle-elearning-conc.onrender.com/css/login.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
@@ -266,7 +266,7 @@ h1 {
 <body id="back-color">
 
 <video autoplay preload="auto" loop="loop" muted="muted" id="myvideo">
-  <source src="https://moodle-elearrning.herokuapp.com/video/Intro.mp4" type="video/mp4">
+  <source src="https://moodle-elearning-conc.onrender.com/video/Intro.mp4" type="video/mp4">
 </video>
 
 <div class="back">
@@ -460,12 +460,12 @@ h1 {
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://moodle-elearrning.herokuapp.com/js/bootstrap.min.js"></script>
-<script src="https://moodle-elearrning.herokuapp.com//js/canvas-video-player.js"></script>
+<script src="https://moodle-elearning-conc.onrender.com/js/bootstrap.min.js"></script>
+<script src="https://moodle-elearning-conc.onrender.com//js/canvas-video-player.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js"></script>
 
-<script src="https://moodle-elearrning.herokuapp.com/js/particles.js"></script>
-<script src="https://moodle-elearrning.herokuapp.com/js/app.js"></script>
+<script src="https://moodle-elearning-conc.onrender.com/js/particles.js"></script>
+<script src="https://moodle-elearning-conc.onrender.com/js/app.js"></script>
 
 <!-- stats.js -->
 <script>
@@ -597,7 +597,7 @@ $(document).ready(function() {
 
 function move() 
 {
-   $('.logo_insert').prop('src','https://moodle-elearrning.herokuapp.com/images/cs.png');
+   $('.logo_insert').prop('src','https://moodle-elearning-conc.onrender.com/images/cs.png');
    $('.logo_insert').addClass('w3-animate-zoom');
       
     
@@ -714,7 +714,7 @@ function move()
 		function uploadFormData(formData) 
 		{
 		 $.ajax({
-		 url: "https://moodle-elearrning.herokuapp.com/upload_images_user.php",
+		 url: "https://moodle-elearning-conc.onrender.com/upload_images_user.php",
 		 type: "POST",
 		 data: formData,
 		 contentType:false,
@@ -722,7 +722,7 @@ function move()
 		 processData: false,
 		 success: function(data){
 		 	s_data = data;
-		  $("#logo_user_perf").html('<img id="logged_username_img" style="width: 150px; height: 150px; margin: auto;" src="https://moodle-elearrning.herokuapp.com/images/users/'+data+'" class="img-responsive"><br>');
+		  $("#logo_user_perf").html('<img id="logged_username_img" style="width: 150px; height: 150px; margin: auto;" src="https://moodle-elearning-conc.onrender.com/images/users/'+data+'" class="img-responsive"><br>');
 		 }});
 		}
 
