@@ -1,6 +1,6 @@
 <?php
 
-    $path="https://upload-moodle-test-cat-production.up.railway.app/cat/";//server path
+    $path="https://upload-moodle-cats.onrender.com/cat/";//server path
     foreach ($_FILES as $key) {
         if($key['error'] == UPLOAD_ERR_OK ){
             $name = $key['name'];
