@@ -1,7 +1,6 @@
 <?php
 
 //delete.php
-
 if(isset($_POST["id"]))
 {
  $connect = new PDO('mysql:host=containers-us-west-77.railway.app;dbname=railway;port=6143', 'root', 'Rnjhhqi1DaRKTHsDTePc');
