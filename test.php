@@ -201,10 +201,10 @@ $mail->SMTPAuth = true;
 
 // Usu�rio para usar SMTP authentication
 // Use o endere�o completodo e-mail do Gmail
-$mail->Username = 'ricardomanuelpeleira@gmail.com';
+$mail->Username = 'ricardopeleira16@gmail.com';
 
 // Senha para SMTP authentication
-$mail->Password = 'qcwrdlcthjenrtln';
+$mail->Password = 'mktiolwmvnzbsjai';
 
 // Definir o remetente
 $mail->setFrom('ricardopeleira16@gmail.com', 'Curso');
