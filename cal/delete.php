@@ -1,9 +1,10 @@
 <?php
 
+
 //delete.php
 if(isset($_POST["id"]))
 {
- $connect = new PDO('mysql:host=containers-us-west-77.railway.app;dbname=railway;port=6143', 'root', 'Rnjhhqi1DaRKTHsDTePc');
+ $connect = new PDO('mysql:host=us-cdbr-east-06.cleardb.net;dbname=heroku_613ab8d128e91a9;port=3306', 'b590e12a78989c', '35b87add');
 
  header('Content-Type: text/html; charset=UTF-8');
 
