@@ -4,6 +4,9 @@ FROM php:8.0-apache
 RUN docker-php-ext-install pdo pdo_mysql
 RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
 
+
+COPY uploads.ini /usr/local/etc/php/conf.d/
+
 RUN docker-php-ext-install -j "$(nproc)" opcache
 RUN set -ex; \
   { \
