@@ -184,7 +184,7 @@ $mail->SMTPDebug = 0;
   se sua rede n�o suportar SMTP over Ipv6
 */
 
-$mail->Host = 'smtp.mailgun.org';
+$mail->Host = 'smtp.gmail.com';
 
 /*
   Defina o numero da porta SMTP - 587 para autentica��o TLS,
@@ -201,16 +201,16 @@ $mail->SMTPAuth = true;
 
 // Usu�rio para usar SMTP authentication
 // Use o endere�o completodo e-mail do Gmail
-$mail->Username = 'postmaster@sandbox2733effcb8554e5e8002e809d46561ef.mailgun.org';
+$mail->Username = 'ricardomanuelpeleira@gmail.com';
 
-            // Senha para SMTP authentication
-            $mail->Password = 'c092e5bd7bc54e8912b5c6b47037ea80-162d1f80-21b7ddcb';
+// Senha para SMTP authentication
+$mail->Password = 'qcwrdlcthjenrtln';
 
-            // Definir o remetente
-            $mail->setFrom('postmaster@sandbox2733effcb8554e5e8002e809d46561ef.mailgun.org', 'Curso');
+// Definir o remetente
+$mail->setFrom('ricardopeleira16@gmail.com', 'Curso');
 
-            // Definir o endereço para respostas
-            $mail->addReplyTo('postmaster@sandbox2733effcb8554e5e8002e809d46561ef.mailgun.org', 'Curso');
+// Definir o endereço para respostas
+$mail->addReplyTo('ricardopeleira16@gmail.com', 'Curso');
 
 // Definir destinatario
 $mail->addAddress('r.peleira@hotmail.com', 'Destinatário');
