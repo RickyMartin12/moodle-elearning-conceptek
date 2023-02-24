@@ -237,10 +237,10 @@ if ($error_message == '')
 			$mail->Password = 'mktiolwmvnzbsjai';
 
             // Definir o remetente
-            $mail->setFrom('ricardopeleira16@gmail.com', 'Curso');
+            $mail->setFrom('r.peleira@hotmail.com', 'Curso');
 
             // Definir o endereço para respostas
-            $mail->addReplyTo('ricardopeleira16@gmail.com', 'Curso');
+            $mail->addReplyTo('r.peleira@hotmail.com', 'Curso');
 
 		// Definir destinatario
 		$mail->addAddress($email, 'Destinatário');
