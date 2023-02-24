@@ -1,18 +1,18 @@
 </div>
-	<script src="https://moodle-elearning-conc.onrender.com/js/bootstrap.min.js"> </script>
+	<script src="../js/bootstrap.min.js"> </script>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/tinymce/4.4.1/tinymce.min.js"></script>
-	<script src="https://moodle-elearning-conc.onrender.com/js/bootbox.min.js"></script>
+	<script src="../js/bootbox.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.css">
 	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="https://moodle-elearning-conc.onrender.com/css/bootstrap-datetimepicker.css">
-	<link rel="stylesheet" type="text/css" href="https://moodle-elearning-conc.onrender.com/css/bootstrap-datetimepicker-standalone.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap-datetimepicker.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap-datetimepicker-standalone.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js "></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
 	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script src="https://moodle-elearning-conc.onrender.com/js/bootstrap-switch.min.js"></script>
+	<script src="../js/bootstrap-switch.min.js"></script>
 
 
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
