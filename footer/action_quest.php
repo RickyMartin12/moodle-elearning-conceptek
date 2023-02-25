@@ -231,10 +231,9 @@ if ($error_message == '')
 
 		// Usuário para usar SMTP authentication
 		// Use o endereço completodo e-mail do Gmail
-		$mail->Username = 'ricardopeleira16@gmail.com';
-
-			// Senha para SMTP authentication
-			$mail->Password = 'mktiolwmvnzbsjai';
+		$mail->Username = 'ricardomanuelpeleira@gmail.com';
+        // Senha para SMTP authentication
+        $mail->Password = 'qcwrdlcthjenrtln';
 
             // Definir o remetente
             $mail->setFrom('r.peleira@hotmail.com', 'Curso');
